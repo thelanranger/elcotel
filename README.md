@@ -23,30 +23,53 @@ IMPORTANT NOTE: This rate file is a modification of the default file! Regardless
 
 
 Update 12/30/2024:
-Modified R94 files 25CENTS.R94 and NOCENTS.R94. These have the NPAs changed! Hex edited files with a block.txt file containing block information to update the rate files in HxD. NPAs begin around block 444 of the rate file and are stored in little endian reverse Hex format. 
+Modified R94 files 25CENTS.R94 and NOCENTS.R94. These have the NPAs changed! Hex edited files with a block.txt file containing block information to update the rate files in HxD. 
+NPAs begin around block 444 of the rate file and are stored in little endian reverse Hex format. 
+
 
 Default r94 contains these NPAs:
+
 941	03AD	AD 03
+
 954	03BA	BA 03	
+
 305	0131	31 01
+
 352	0160	60 01
+
 407	0197	97 01
+
 561	0231	31 02
+
 813	032D	2D 03
+
 904	0388	88 03
+
 850	0352	52 03
 
+
 New files contain these NPAs:
+
 777	0390	90 03
+
 500	01F4	F4 01
+
 529	0211	11 02
+
 528	0210	10 02
+
 527	020F	0F 02
+
 526	020E	0E 02
+
 525	020D	0D 02
+
 524	020C	0C 02
+
 523	020B	0B 02
+
 522	020A	0A 02
 
 All NPA rates have been changed to InterLATA 1 and set to 25 cents or 0 cents respectively. 
+
 Don't forget to set 423-430 registers to 2 to enable keypad during call!
